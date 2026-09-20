@@ -957,15 +957,41 @@
       support opportunities.
     </p>
 
-    <a class="email"
-       href="mailto:reinoldras@gmail.com">
-      Contact Me — reinoldras@gmail.com
-    </a>
+    <div class="contact-buttons">
+  <a class="email"
+     href="mailto:reinoldras@gmail.com">
+    Contact Me — Email
+  </a>
 
-  </div>
+  <a class="linkedin"
+     href="https://www.linkedin.com/in/reinold-ras-326b3628b/"
+     target="_blank"
+     rel="noopener noreferrer">
+    View My LinkedIn
+  </a>
+</div>
 
 </section>
 
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.linkedin {
+  display: inline-block;
+  padding: 15px 22px;
+  background: white;
+  color: var(--navy);
+  border-radius: 6px;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+.linkedin:hover {
+  opacity: .9;
+}
 
 <footer>
 
